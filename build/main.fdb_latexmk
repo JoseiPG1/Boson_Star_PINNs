@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1703582635 "/Users/joseignacioperdiguerogarate/Documents/GitHub/Boson_Star_PINNs/main.tex" "build/main.pdf" "main" 1703582635
-  "/Users/joseignacioperdiguerogarate/Documents/GitHub/Boson_Star_PINNs/main.tex" 1703582634 1758 0ec674f7e89262daec9ff4e52d04274b ""
+["pdflatex"] 1703585638 "/Users/joseignacioperdiguerogarate/Documents/GitHub/Boson_Star_PINNs/main.tex" "build/main.pdf" "main" 1703585638
+  "/Users/joseignacioperdiguerogarate/Documents/GitHub/Boson_Star_PINNs/main.tex" 1703585637 3652 25d028748392b95bacc200b6a1cdbe95 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -32,6 +32,8 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -93,9 +95,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668543006 2826447 baad09eeaa9874dec94c7a13fcd7df16 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "build/main.aux" 1703582635 1445 8e90a8897aef9aa057757bbb2fcc4cbe "pdflatex"
-  "build/main.out" 1703582635 485 8e87b0d13fbbb2f790001599a2ba8e14 "pdflatex"
-  "main.tex" 1703582634 1758 0ec674f7e89262daec9ff4e52d04274b ""
+  "build/main.aux" 1703585638 1616 c430ba76ffaa713965d75274d4a256d0 "pdflatex"
+  "build/main.out" 1703585638 485 8e87b0d13fbbb2f790001599a2ba8e14 "pdflatex"
+  "main.tex" 1703585637 3652 25d028748392b95bacc200b6a1cdbe95 ""
   (generated)
   "build/main.aux"
   "build/main.log"
