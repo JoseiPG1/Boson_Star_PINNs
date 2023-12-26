@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{cite} 
+\usepackage{breqn}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\title{Numerical solutions for boson stars in $f\left(\mathcal{R}\right)$ gravity using PINNs}
+\author{Jos\'e Perdiguero G\'arate}
+
+\begin{document}
+
+\maketitle
+%\tableofcontents
+
+\section{Introduction}
+\label{sec:introduction}
+
+\section{Dynamics in $f\left(\mathcal{R}\right)$}
+\label{sec:dynamics}
+
+In Palatini's formalisms, the manifold is endowed with two fundamental and independent
+fields: the metric tensor $g_{\mu\nu}$ and the affine connection $\Gamma^{\alpha}{}_{\beta\gamma}$, 
+the former allow us to define the notion of distance, whereas the latter define the notion of 
+parallelism. The action is written as follow
+\begin{equation}
+S\left[g, \Gamma\right] = \frac{1}{2k}\int \mathrm{d}^{4}x \sqrt{-g}f\left(\mathcal{R}\right) 
+    - \frac{1}{2}\int \mathrm{d}^{4}x \sqrt{-g}\mathcal{P}(X, \Phi),
+\end{equation}
+where the first term correspond to a generalization of the Einstein-Hilbert action, by replacing
+the functional with an arbitrary function of the Ricci scalar, and the second term stands for the
+matter sector defined as
+\begin{equation}
+\mathcal{P}  = X - 2V(\Phi),
+\end{equation}
+where $X = g^{\alpha\beta}\partial_\alpha {\Phi} \partial_\beta \Phi$ and $V(\Phi) = -\frac{1}{2}\mu^2\Phi\Phi$,
+with $\mu$ as the mass of the complex scalar field. The field equations are obtained through varying
+the action with respect to the inverse metric tensor $g^{\mu\nu}$ and the affine connection
+$\Gamma^{\alpha}{}_{\beta\gamma}$ respectively
+
+
+\section{Numerical analysis}
+\label{sec:numercal_analysis}
+
+\section{Final remarks}
+\label{sec:remarks}
+
+\end{document}
