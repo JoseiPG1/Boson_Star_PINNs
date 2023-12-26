@@ -65,7 +65,7 @@ to write an explicit relation between the affine connection with the conformal m
     \Gamma^{\lambda}{}_{\mu\nu} = \frac{1}{2}q^{\lambda\rho}\left(\partial_\mu q_{\rho\nu} + 
     \partial_\nu q_{\rho\mu} - \partial_\rho q_{\mu\nu}\right),
 \end{equation}
-this are the Christoffel symbols, and we can use it in Eq.\eqref{g_feq} to find an equation
+this are the Christof fel symbols, and we can use it in Eq.\eqref{g_feq} to find an equation
 that only involves the metric tensor and the matter.
 \begin{equation}
     \mathcal{R}_{\mu\nu} - \frac{1}{2}q_{\mu\nu}\mathcal{R} = \frac{k}{f_{\mathcal{R}}}\mathcal{T}_{\mu\nu}
@@ -73,6 +73,39 @@ that only involves the metric tensor and the matter.
     \left(\partial_\mu f_{\mathcal{R}} \partial_\nu f_{\mathcal{R}} - \frac{1}{2}q_{\mu\nu}(\partial f_{\mathcal{R}})^2\right)
     + \frac{1}{f_{\mathcal{R}}}\left(\nabla_\mu\nabla_\nu f_{\mathcal{R}} - q_{\mu\nu}\square f_{\mathcal{R}}\right)
 \end{equation}
+
+using
+\begin{equation}
+    f(\mathcal{R}) = \mathcal{R} + \xi \mathcal{R}^2
+\end{equation}
+Working in the Einstein-frame, the action is written as
+\begin{equation}
+    S = \frac{1}{2k}\int \mathrm{d}^4x \sqrt{-q}\mathcal{R} - \frac{1}{2}\int \mathrm{d}^4x \sqrt{-q}\mathcal{K}(Z,\Phi),
+\end{equation}
+where $\mathcal{K}(Z,\Phi)$ is defined as
+\begin{equation}
+    \mathcal{K}(Z,\Phi) = \frac{Z - \xi k Z^2}{1 - 8\xi k V} - \frac{2V}{1 - 8\xi k V}.
+\end{equation}
+The first field equation, is obtained by varying the action with respect to the
+inverse metric $g^{\mu\nu}$
+\begin{equation}
+    \mathcal{R}_{\mu\nu} - \frac{1}{2}\mathcal{R}g_{\mu\nu} = k\mathcal{T}_{\mu\nu},
+    \end{equation} 
+where the energy-momentum tensor $\mathcal{T}_{\mu\nu}$ is defined as
+\begin{equation}
+    \mathcal{T}_{\mu\nu} = \frac{\left(\partial_\mu \Phi \partial_\nu \Phi + \partial_\mu \Phi \partial_\nu \Phi \right)\left(1 - 2\xi k Z\right)
+    -q_{\mu\nu}\left( Z\left(1 - \xi k Z\right) +  \mu^2\vert \Phi\vert^2\right)}{2 + 8\xi k \mu^2 \vert \Phi\vert^2}.
+\end{equation}
+The second field equation is obtained with the variation with respect to the complex
+scalar field 
+
+\begin{equation}
+    \mathrm{d}s^2 = -\alpha^2(x) \mathrm{d}t^2 + \beta^2(x)\mathrm{d}x^2
+    + x^2\mathrm{d}\theta^2 + x^2\sin^2\theta\mathrm{d}\varphi^2
+\end{equation}
+
+
+
 \section{Numerical analysis}
 \label{sec:numercal_analysis}
 
