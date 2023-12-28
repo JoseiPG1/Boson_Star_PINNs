@@ -93,6 +93,7 @@ where $\mathcal{K}(Z,\Phi)$ is defined as
 The first field equation, is obtained by varying the action with respect to the
 inverse metric $g^{\mu\nu}$
 \begin{equation}
+\label{Feq_1}
     \mathcal{R}_{\mu\nu} - \frac{1}{2}\mathcal{R}g_{\mu\nu} = k\mathcal{T}_{\mu\nu},
     \end{equation} 
 where the energy-momentum tensor $\mathcal{T}_{\mu\nu}$ is defined as
@@ -107,8 +108,16 @@ scalar field
     \mathrm{d}s^2 = -\alpha^2(x) \mathrm{d}t^2 + \beta^2(x)\mathrm{d}x^2
     + x^2\mathrm{d}\theta^2 + x^2\sin^2\theta\mathrm{d}\varphi^2
 \end{equation}
+Using the above metric one can find the two independent components of Eq.\eqref{Feq_1}
+\begin{equation}
+    \frac{\partial \beta}{\partial x} = \frac{\alpha^4\left(\beta^4\left(-2 + k\mu^2\left(x^2 - 8\xi\right)\phi^2\right) - k^2x^2\xi\psi^4 +\beta^2\left(2 + 8k\mu^2\xi\phi^2 + kx^2\psi^2\right)\right) +
+    kx^2\alpha^2\beta^2\phi^2\left(\beta^2 - 2k\xi\psi^2\right)\omega^2 + 3k^2x^2\beta^4\xi\phi^4\omega^4}{4x\alpha^4\beta\left(1 + 4k\mu^2\xi\phi^2\right)}
+\end{equation}
 
-
+\begin{equation}
+    \frac{\partial \alpha}{\partial x} = \frac{\alpha^4\left(\beta^2\left(-2 + 2\beta^2 - k\mu^2\left(\beta^2\left(x^2 - 8\xi\right) + 8\xi\right)\phi^2\right) + kx^2\beta^2\psi^2 - 3k^2x^2\xi\psi^4\right)
+    + kx^2\alpha^2\beta^2\phi^2\left(\beta^2 + 2k\xi\psi^2\right)\omega^2 + k^2x^2\beta^4\xi\phi^4\omega^4}{4x\alpha^3\beta^2\left(1 + 4k\mu^2\xi\phi^2\right)}
+\end{equation}
 
 \section{Numerical analysis}
 \label{sec:numercal_analysis}
